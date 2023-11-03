@@ -27,4 +27,4 @@ This is a webpage project that showcases a one-page website with various effects
 To use or further develop this project, simply clone the repository to your local environment and open the `index.html` file in a web browser. Feel free to customize the content, styling, and interactivity to suit your specific needs.
 
 ## License
-This project is provided under an open-source license (Specify the license you want to use, e.g., MIT License). You are welcome to use and modify it as you see fit.
+This project is provided under an open-source license. 
