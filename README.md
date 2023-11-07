@@ -1,21 +1,36 @@
-# My Website Project
+# My 3-Page Website Project
 
-## Overview
-This is a webpage project that showcases a one-page website with various effects, including a parallax scrolling header and sections. The project consists of the following components:
+This project is a 3-page website that features a variety of components and functionalities across its pages. The website consists of the following pages:
 
-## Project Files Structure
-- **index.html**: This file contains the main structure of the webpage, including the HTML content, navigation bar, sections, and footer.
+## Homepage (index.html)
 
-- **style.css**: The stylesheet that defines the visual styling of the webpage, including the navigation bar, parallax effects, colored container, and footer.
+The homepage serves as the main landing page for the website. It includes a visually appealing design and incorporates the following elements:
 
-- **main.js**: A JavaScript file responsible for adding a parallax scrolling effect to the header and the second parallax section. It listens for scroll events and adjusts the background positions and element positions accordingly to create the parallax effect.
+- A parallax scrolling header that provides an engaging and dynamic user experience.
+- A navigation bar with links to other pages of the website, including "My Works" and "Contact Us."
+- A colored container that visually separates sections of the page.
+- A parallax background section that adds depth and interactivity.
 
-- **images**: A folder that includes the images used in the project, such as the header background image and the images that surround the container with the long text, along with other assets.
+## My Works Page (myworks.html)
+
+The "My Works" page is dedicated to showcasing a collection of images in a slide carousel. This page is designed to provide an interactive and visually appealing way to display a series of images. Key features of this page include:
+
+- A responsive image carousel that allows users to browse through a collection of images.
+- Custom styling and design to enhance the visual presentation of the images.
+
+## Contact Us Page (contact.html)
+
+The "Contact Us" page is designed for user interaction. It features a contact form that enables visitors to send messages. The page includes:
+
+- A user-friendly contact form that collects email and message information.
+- An embedded map to provide location information.
+- Utilization of the Bootstrap framework for responsive design and styling.
 
 ## Webpage Components
+
 - **Navigation Bar**: A Bootstrap-based navigation bar that includes navigation links (Home, My Works, Contact Us), and a responsive menu toggle.
 
-- **Parallax Scrolling Header**: A header section with a parallax background image and centered text. The background image shifts as the user scrolls, creating a dynamic effect.
+- **Parallax Scrolling Header**: This section of the page features a header with a parallax background image and centered text. As the user scrolls, the background image shifts, creating a visually dynamic effect.
 
 - **Colored Container**: A section that provides a visually appealing separation from other sections.
 
@@ -24,7 +39,9 @@ This is a webpage project that showcases a one-page website with various effects
 - **Footer**: A footer displaying a copyright notice for the year 2023.
 
 ## Usage
+
 To use or further develop this project, simply clone the repository to your local environment and open the `index.html` file in a web browser. Feel free to customize the content, styling, and interactivity to suit your specific needs.
 
 ## License
-This project is provided under an open-source license. 
+
+This project is provided under an open-source license.
