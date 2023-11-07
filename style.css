@@ -1,164 +1,86 @@
-/* Reset some default styles */
+/* Reset some default styles for body, headings, and paragraphs */
 body, h1, h2, p {
   margin: 0;
   padding: 0;
 }
 
+/* Set the font family for the entire page and background color for the body */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
 }
 
-/* Navigation Bar */
+/* Navigation Bar styling */
 .navbar {
   background-color: #ffffff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .navbar img {
   width: 40px;
-  height: 0px;
+  height: 0px; /* Set the image height to zero */
 }
 
-/* Parallax Scrolling Header */
+/* Parallax Scrolling Header styles */
 .parallax-header {
   background-image: url("images/bgheader.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+  background-attachment: fixed; /* Fixed background attachment */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
   text-align: center;
-  color: rgb(11, 65, 31));
-  height: 47vh;
+  color: rgb(41, 51, 25);
+  height: 47vh; /* 47% of the viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .parallax-header h1 {
-  font-size: 2rem;
+  font-size: 2rem; /* Set the font size for the heading */
 }
 
 /* Colored Container with Space */
 .colored-container {
-  background-color: rgba(4, 27, 15, 0.7);
-  color: white;
+  background-color: rgba(27, 26, 26, 0.7); /* Semi-transparent background color */
   padding: 20px;
   text-align: center;
-  
+  height: 22vh; /* 22% of the viewport height */
 }
 
-/* Parallax Background Section 2 */
+/* Parallax Background Section 2 styles */
 .parallax-bg2 {
   background-image: url("images/bg.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+  background-attachment: fixed; /* Fixed background attachment */
+  background-size: auto; /* Allow the background image to repeat */
+  background-repeat: repeat; /* Repeat both horizontally and vertically */
   text-align: center;
-  color: white;
-  height: 100vh;
+  color: rgb(26, 24, 24);
+  height: 100vh; /* 100% of the viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .parallax-bg2 .container {
-  max-width: 800px;
+  max-width: 75%; /* Adjusted width for the content container */
   margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
   text-align: left;
 }
 
 .parallax-bg2 h1 {
-  font-size: 2rem;
+  font-size: 2rem; /* Set the font size for the heading */
 }
 
 .parallax-bg2 p {
-  font-size: 1rem;
+  font-size: 1rem; /* Set the font size for paragraphs */
 }
 
-/* Footer */
+/* Footer styling */
 footer {
   background-color: #333;
   color: white;
   text-align: center;
   padding: 10px 0;
-}
-
-/* Additional styling can be added as needed. */
-/* Existing CSS rules */
-
-/* Additional styles for the content container */
-.parallax-bg2 {
-    background-image: url("images/bg.jpg");
-    background-attachment: fixed;
-    background-size: auto; /* Set background size to 'auto' to make the image repeat */
-    background-repeat: repeat; /* Set background-repeat to 'repeat' */
-    text-align: center;
-    color: white;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content-container {
-    max-width: 70%;
-    margin: 0 auto;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.7);
-    text-align: left;
-}
-
-.content-container h1 {
-    font-size: 2rem;
-}
-
-.content-container p {
-    font-size: 1rem;
-}
-
-/* Existing CSS rules */
-/* Existing CSS rules */
-
-/* Updated styles for the parallax-bg2 */
-.parallax-bg2 {
-  background-image: url("images/bg.jpg");
-  background-attachment: fixed;
-  background-size: auto; /* Allow the image to repeat */
-  background-repeat: repeat; /* Make the image repeat both horizontally and vertically */
-  text-align: center;
-  color: white;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.parallax-bg2 .container {
-  max-width: 75%; /* Adjusted the width to match the content container */
-  margin: 0 auto;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.7);
-  text-align: left;
-}
-
-.parallax-bg2 h1 {
-  font-size: 2rem;
-}
-
-.parallax-bg2 p {
-  font-size: 1rem;
-}
-
-/* Existing CSS rules */
-.parallax-bg2 h1,
-.parallax-bg2 p {
-  color: #0b0a0c; /* Change #FF0000 to the color of your choice (e.g., red) */
-}
-
-/* Colored Container with Space */
-.colored-container {
-  background-color: rgba(27, 26, 26, 0.7);
-  padding: 20px;
-  text-align: center;
-  height: 22vh; /* Change the height to 94vh to make it double in height */
 }
